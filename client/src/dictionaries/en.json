@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "titleSuffix": "MotoTaxi",
+    "homeTitle": "MotoTaxi — Ride Smart, Delivery Trust",
+    "homeDescription": "MotoTaxi offers fast motorbike rides, deliveries, and premium services in Tirana. Order on WhatsApp and arrive without delay."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "header": {
+    "cta": "Order via WhatsApp"
+  },
+  "splash": {
+    "tagline": "Ride Smart, Delivery Trust"
+  },
+  "hero": {
+    "eyebrow": "Motorbike taxi & delivery in Tirana",
+    "headline1": "Ride Smart.",
+    "headline2": "Delivery Trust.",
+    "body": "MotoTaxi gets you where you need to be — fast, on time, and without the hassle of traffic, with professionalism on every mile.",
+    "ctaPrimary": "Order a ride",
+    "ctaSecondary": "Explore services"
+  },
+  "servicesSection": {
+    "eyebrow": "Our Services",
+    "headingLine1": "Five ways to ",
+    "headingAccent": "move",
+    "headingLine2": " through the city",
+    "viewDetails": "View details"
+  },
+  "valueProps": {
+    "eyebrow": "Why MotoTaxi",
+    "headingLine1": "Trust in ",
+    "headingAccent": "every mile",
+    "headingLine2": "",
+    "items": [
+      {
+        "title": "Speed",
+        "desc": "Avoid traffic and save valuable time every day."
+      },
+      {
+        "title": "Safety",
+        "desc": "Trained operators and strict safety procedures."
+      },
+      {
+        "title": "Professionalism",
+        "desc": "Consistent, courteous, and transparent service."
+      },
+      {
+        "title": "Trust",
+        "desc": "Individuals and businesses rely on us every day."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "headingLine1": "Three steps to ",
+    "headingAccent": "your destination",
+    "headingLine2": "",
+    "steps": [
+      {
+        "title": "Request via WhatsApp",
+        "desc": "Tell us your destination and preferred time."
+      },
+      {
+        "title": "Confirm & Track",
+        "desc": "We confirm the details and the operator departs right away."
+      },
+      {
+        "title": "Arrive",
+        "desc": "Reach your destination safely, on time, and stress-free."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headingLine1": "Ready to ",
+    "headingAccent": "ride?",
+    "headingLine2": "",
+    "body": "Message us on WhatsApp and an operator will reach out within minutes.",
+    "cta": "Order via WhatsApp"
+  },
+  "footer": {
+    "tagline": "Ride Smart, Delivery Trust.",
+    "quickLinksTitle": "Services",
+    "contactTitle": "Contact",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "socialTitle": "Follow us",
+    "rights": "All rights reserved.",
+    "languageLabel": "Language",
+    "themeLabel": "Theme"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "services": "Services"
+  },
+  "serviceDetail": {
+    "exploreOthersEyebrow": "Keep exploring",
+    "exploreOthersHeading": "Other services",
+    "orderCta": "Order via WhatsApp",
+    "galleryTitle": "Gallery",
+    "galleryNote": "Placeholder imagery — will be replaced with real photos of the service.",
+    "processTitle": "How it works",
+    "featuresTitle": "What's included",
+    "descriptionTitle": "About the service"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggleLabel": "Toggle theme"
+  },
+  "language": {
+    "switchLabel": "Switch language"
+  },
+  "services": {
+    "mototaxi": {
+      "name": "MotoTaxi",
+      "tagline": "Fast and safe transport in the city",
+      "shortDescription": "Fast motorbike transport to any destination in the city.",
+      "description": [
+        "MotoTaxi offers fast motorbike transport for people who want to avoid traffic and reach their destination without delay. Whether you're heading to work, university, a meeting, the airport, or anywhere else, we guarantee a safe, comfortable, and professional ride.",
+        "Our mission is to save you time and give you a modern, reliable transport experience."
+      ],
+      "features": [
+        {
+          "title": "Any destination",
+          "desc": "Work, university, meetings, or the airport — anywhere in the city."
+        },
+        {
+          "title": "Professional rides",
+          "desc": "Trained, courteous operators who are always on time."
+        }
+      ],
+      "whatsappMessage": "Hello! I'd like to order a MotoTaxi ride. Please contact me with more details."
+    },
+    "mototaxi-premium": {
+      "name": "MotoTaxi Premium",
+      "tagline": "The ideal solution when time is a priority",
+      "shortDescription": "You travel by motorbike, your car follows — both arrive on time.",
+      "description": [
+        "MotoTaxi Premium is a unique service created for people stuck in traffic with their own vehicle who need to reach their destination as quickly as possible.",
+        "The service is carried out with maximum professionalism and strict safety procedures. For full transparency, at the client's request, the vehicle can be temporarily fitted with a camera during transport.",
+        "MotoTaxi Premium is the ideal choice for important meetings, flights, urgent commitments, or any situation where every minute counts."
+      ],
+      "process": [
+        {
+          "title": "First operator",
+          "desc": "Takes you immediately by motorbike to your destination."
+        },
+        {
+          "title": "Second operator",
+          "desc": "Takes charge of your vehicle and delivers it wherever you choose — home, workplace, airport, hotel, or any other address."
+        }
+      ],
+      "whatsappMessage": "Hello! I'm interested in the MotoTaxi Premium service (ride + vehicle delivery). Please contact me."
+    },
+    "motodelivery": {
+      "name": "MotoDelivery",
+      "tagline": "Fast deliveries for individuals and businesses",
+      "shortDescription": "Fast deliveries for individuals and businesses, every day.",
+      "description": [
+        "MotoDelivery offers fast and safe transport for documents, packages, products, and orders across the city.",
+        "The service suits both individuals and businesses — restaurants, pharmacies, online shops, offices, and companies that need reliable deliveries."
+      ],
+      "features": [
+        {
+          "title": "Single deliveries",
+          "desc": "For individuals and one-off needs, anywhere in the city."
+        },
+        {
+          "title": "Monthly business contracts",
+          "desc": "A stable logistics partnership for businesses with ongoing needs."
+        }
+      ],
+      "whatsappMessage": "Hello! I'd like to arrange a MotoDelivery. Please contact me with more details."
+    },
+    "motoguide": {
+      "name": "MotoGuide",
+      "tagline": "Explore the city differently",
+      "shortDescription": "Explore the city with a local motorbike guide.",
+      "description": [
+        "MotoGuide is a dedicated service for tourists and visitors who want to discover the city in a fast, practical, and unique way.",
+        "Your MotoTaxi guide accompanies you throughout the itinerary, helping you visit the main sights and most interesting spots while saving time and avoiding traffic."
+      ],
+      "tags": ["Custom itinerary", "Tourist highlights"],
+      "whatsappMessage": "Hello! I'm interested in a MotoGuide tour. Please send me more information."
+    },
+    "airport-transfer": {
+      "name": "Airport Transfer",
+      "tagline": "Reliable transport and services to and from the airport",
+      "shortDescription": "Safe transport to and from Tirana International Airport.",
+      "description": [
+        "MotoTaxi offers fast and safe transport to and from Tirana International Airport, helping you avoid traffic and arrive on time for your flight or destination.",
+        "Besides passenger transport, we also offer authorized airport services: if you can't be there in person, our team can pick up or deliver documents, keys, small luggage, or other authorized items on your behalf, with professionalism, discretion, and complete reliability.",
+        "Our goal is to save you time and give you a safe, flexible, and trustworthy solution for anything airport-related."
+      ],
+      "features": [
+        {
+          "title": "Passenger transfer",
+          "desc": "Direct rides to and from Tirana International Airport."
+        },
+        {
+          "title": "Authorized services",
+          "desc": "Pickup/delivery of documents, keys, and luggage on your behalf."
+        }
+      ],
+      "whatsappMessage": "Hello! I need an Airport Transfer. Please contact me with more details."
+    }
+  }
+}

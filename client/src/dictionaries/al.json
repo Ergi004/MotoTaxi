@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "titleSuffix": "MotoTaxi",
+    "homeTitle": "MotoTaxi — Udhëto Mençur, Dërgesa me Besim",
+    "homeDescription": "MotoTaxi ofron transport të shpejtë me motor, dërgesa dhe shërbime premium në Tiranë. Porositni në WhatsApp dhe mbërrini pa vonesa."
+  },
+  "nav": {
+    "home": "Kryefaqja",
+    "services": "Shërbimet",
+    "menuOpen": "Hap menunë",
+    "menuClose": "Mbyll menunë"
+  },
+  "header": {
+    "cta": "Porosit në WhatsApp"
+  },
+  "splash": {
+    "tagline": "Udhëto Mençur, Dërgesa me Besim"
+  },
+  "hero": {
+    "eyebrow": "Motor-taxi & dërgesa në Tiranë",
+    "headline1": "Udhëto Mençur.",
+    "headline2": "Dërgesa me Besim.",
+    "body": "MotoTaxi ju çon aty ku duhet të jeni — shpejt, në kohë dhe pa telashe të trafikut, me profesionalizëm në çdo kilometër.",
+    "ctaPrimary": "Porosit një udhëtim",
+    "ctaSecondary": "Eksploro shërbimet"
+  },
+  "servicesSection": {
+    "eyebrow": "Shërbimet Tona",
+    "headingLine1": "Pesë mënyra për të ",
+    "headingAccent": "lëvizur",
+    "headingLine2": " qytetin",
+    "viewDetails": "Shiko detajet"
+  },
+  "valueProps": {
+    "eyebrow": "Pse MotoTaxi",
+    "headingLine1": "Besueshmëri ",
+    "headingAccent": "në çdo kilometër",
+    "headingLine2": "",
+    "items": [
+      {
+        "title": "Shpejtësi",
+        "desc": "Shmangni trafikun dhe kurseni kohë të vlefshme çdo ditë."
+      },
+      {
+        "title": "Siguri",
+        "desc": "Operatorë të trajnuar dhe procedura të rrepta sigurie."
+      },
+      {
+        "title": "Profesionalizëm",
+        "desc": "Shërbim i qëndrueshëm, i sjellshëm dhe transparent."
+      },
+      {
+        "title": "Besueshmëri",
+        "desc": "Klientë individualë dhe biznese na besojnë çdo ditë."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Si Funksionon",
+    "headingLine1": "Tre hapa drejt ",
+    "headingAccent": "destinacionit",
+    "headingLine2": "",
+    "steps": [
+      {
+        "title": "Kërko në WhatsApp",
+        "desc": "Na shkruani destinacionin dhe kohën që ju përshtatet."
+      },
+      {
+        "title": "Konfirmo & Ndiq",
+        "desc": "Ne konfirmojmë detajet dhe operatori niset menjëherë."
+      },
+      {
+        "title": "Mbërrini",
+        "desc": "Arrini në destinacion të sigurt, në kohë dhe pa stres."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headingLine1": "Gati për t'u ",
+    "headingAccent": "nisur?",
+    "headingLine2": "",
+    "body": "Na shkruani në WhatsApp dhe një operator do t'ju kontaktojë brenda pak minutash.",
+    "cta": "Porosit në WhatsApp"
+  },
+  "footer": {
+    "tagline": "Udhëto Mençur, Dërgesa me Besim.",
+    "quickLinksTitle": "Shërbimet",
+    "contactTitle": "Kontakt",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "socialTitle": "Na ndiqni",
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "languageLabel": "Gjuha",
+    "themeLabel": "Tema"
+  },
+  "breadcrumbs": {
+    "home": "Kryefaqja",
+    "services": "Shërbimet"
+  },
+  "serviceDetail": {
+    "exploreOthersEyebrow": "Vazhdo eksplorimin",
+    "exploreOthersHeading": "Shërbime të tjera",
+    "orderCta": "Porosit në WhatsApp",
+    "galleryTitle": "Galeria",
+    "galleryNote": "Foto ilustruese — do zëvendësohen me foto reale të shërbimit.",
+    "processTitle": "Si funksionon",
+    "featuresTitle": "Çfarë përfshin",
+    "descriptionTitle": "Rreth shërbimit"
+  },
+  "theme": {
+    "light": "E çelur",
+    "dark": "E errët",
+    "toggleLabel": "Ndrysho temën"
+  },
+  "language": {
+    "switchLabel": "Ndrysho gjuhën"
+  },
+  "services": {
+    "mototaxi": {
+      "image": "/images/airport-service.png",
+
+      "name": "MotoTaxi",
+      "tagline": "Transport i shpejtë dhe i sigurt në qytet",
+      "shortDescription": "Transport i shpejtë me motor për çdo destinacion në qytet.",
+      "description": [
+        "MotoTaxi ofron transport të shpejtë me motor për individët që duan të shmangin trafikun dhe të arrijnë në destinacion pa vonesa. Pavarësisht nëse jeni duke shkuar në punë, universitet, një takim, aeroport apo në çdo destinacion tjetër, ne ju garantojmë një udhëtim të sigurt, komod dhe profesional.",
+        "Misioni ynë është t'ju kursejmë kohë dhe t'ju ofrojmë një eksperiencë transporti moderne dhe të besueshme."
+      ],
+      "features": [
+        {
+          "title": "Për çdo destinacion",
+          "desc": "Punë, universitet, takime ose aeroport — kudo në qytet."
+        },
+        {
+          "title": "Udhëtim profesional",
+          "desc": "Operatorë të trajnuar, të sjellshëm dhe të përpiktë në kohë."
+        }
+      ],
+      "whatsappMessage": "Përshëndetje! Dëshiroj të porosis një MotoTaxi. Ju lutem më kontaktoni për detaje."
+    },
+    "mototaxi-premium": {
+      "name": "MotoTaxi Premium",
+      "tagline": "Zgjidhja ideale kur koha është prioritet",
+      "image": "/images/airport-service.png",
+
+      "shortDescription": "Ju me motor, makina juaj e shoqëruar — të dyja në kohë.",
+      "description": [
+        "MotoTaxi Premium është një shërbim unik, i krijuar për ata që ndodhen në trafik me automjetin e tyre, por duhet të mbërrijnë sa më shpejt në destinacion.",
+        "Shërbimi kryhet me profesionalizëm maksimal dhe me procedura sigurie. Për transparencë të plotë, sipas dëshirës së klientit, automjeti mund të pajiset përkohësisht me një kamerë gjatë transportit.",
+        "MotoTaxi Premium është zgjedhja ideale për takime të rëndësishme, fluturime, angazhime urgjente ose çdo situatë ku çdo minutë ka vlerë."
+      ],
+      "process": [
+        {
+          "title": "Operatori i parë",
+          "desc": "Ju transporton menjëherë me motor drejt destinacionit tuaj."
+        },
+        {
+          "title": "Operatori i dytë",
+          "desc": "Merr në dorëzim automjetin tuaj dhe e dërgon në çdo destinacion që ju zgjidhni — shtëpi, punë, aeroport, hotel apo çdo adresë tjetër."
+        }
+      ],
+      "whatsappMessage": "Përshëndetje! Jam i interesuar për shërbimin MotoTaxi Premium (transport + dorëzim automjeti). Ju lutem më kontaktoni."
+    },
+    "motodelivery": {
+      "name": "MotoDelivery",
+      "image": "/images/airport-service.png",
+
+      "tagline": "Dërgesa të shpejta për individë dhe biznese",
+      "shortDescription": "Dërgesa të shpejta për individë dhe biznese, çdo ditë.",
+      "description": [
+        "MotoDelivery ofron transport të shpejtë dhe të sigurt për dokumente, pako, produkte dhe porosi të ndryshme në të gjithë qytetin.",
+        "Shërbimi është i përshtatshëm si për individë, ashtu edhe për biznese si restorante, farmaci, dyqane online, zyra dhe kompani që kanë nevojë për dërgesa të besueshme."
+      ],
+      "features": [
+        {
+          "title": "Dërgesa të vetme",
+          "desc": "Për individë dhe raste të veçanta, kudo në qytet."
+        },
+        {
+          "title": "Kontrata mujore biznesi",
+          "desc": "Partneritet logjistik i qëndrueshëm për bizneset me nevoja të vazhdueshme."
+        }
+      ],
+      "whatsappMessage": "Përshëndetje! Dëshiroj të bëj një dërgesë me MotoDelivery. Ju lutem më kontaktoni për detaje."
+    },
+    "motoguide": {
+      "name": "MotoGuide",
+      "tagline": "Eksploroni qytetin ndryshe",
+      "image": "/images/airport-service.png",
+
+      "shortDescription": "Eksploroni qytetin me një guidë lokale me motor.",
+      "description": [
+        "MotoGuide është një shërbim i dedikuar për turistët dhe vizitorët që dëshirojnë të zbulojnë qytetin në një mënyrë të shpejtë, praktike dhe unike.",
+        "Guida e MotoTaxi ju shoqëron gjatë gjithë itinerarit, duke ju ndihmuar të vizitoni pikat kryesore turistike dhe destinacionet më interesante, ndërsa kurseni kohë dhe shmangni trafikun."
+      ],
+      "tags": ["Itinerar i personalizuar", "Pikat kryesore turistike"],
+      "whatsappMessage": "Përshëndetje! Jam i interesuar për një tur me MotoGuide. Ju lutem më jepni më shumë informacion."
+    },
+    "airport-transfer": {
+      "name": "Airport Transfer",
+      "image": "/images/airport-service.png",
+      "tagline": "Transport dhe shërbime të besueshme drejt dhe nga aeroporti",
+      "shortDescription": "Transport i sigurt drejt dhe nga Aeroporti i Tiranës.",
+      "description": [
+        "MotoTaxi ofron transport të shpejtë dhe të sigurt për individët drejt dhe nga Aeroporti Ndërkombëtar i Tiranës, duke ju ndihmuar të shmangni trafikun dhe të mbërrini në kohë për fluturimin tuaj ose në destinacionin e dëshiruar.",
+        "Përveç transportit të pasagjerëve, ofrojmë edhe shërbime të autorizuara për aeroportin. Nëse nuk mund të jeni fizikisht i pranishëm, ekipi ynë mund të marrë ose të dorëzojë në emrin tuaj dokumente, çelësa, bagazhe të vogla apo sende të tjera të autorizuara, me profesionalizëm, diskrecion dhe besueshmëri të plotë.",
+        "Qëllimi ynë është t'ju kursejmë kohë dhe t'ju ofrojmë një zgjidhje të sigurt, fleksibël dhe të besueshme për çdo nevojë që lidhet me aeroportin."
+      ],
+      "features": [
+        {
+          "title": "Transporti i pasagjerëve",
+          "desc": "Udhëtim i drejtpërdrejtë drejt dhe nga Aeroporti Ndërkombëtar i Tiranës."
+        },
+        {
+          "title": "Shërbime të autorizuara",
+          "desc": "Marrje/dorëzim dokumentesh, çelësash dhe bagazhesh në emrin tuaj."
+        }
+      ],
+      "whatsappMessage": "Përshëndetje! Kam nevojë për një Airport Transfer. Ju lutem më kontaktoni për detaje."
+    }
+  }
+}
