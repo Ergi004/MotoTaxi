@@ -43,6 +43,7 @@ export function ServiceGrid({ locale, dict }: ServiceGridProps) {
                 featured={meta.featured}
                 viewDetailsLabel={dict.servicesSection.viewDetails}
                 index={index}
+                image={meta.image}
               />
             );
           })}

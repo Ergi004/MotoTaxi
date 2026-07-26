@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Menu } from "lucide-react";
 import type { Locale } from "@/lib/i18n-config";
-import { RiderMark } from "@/components/icons/RiderMark";
-import { Wordmark } from "@/components/Wordmark";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -69,10 +68,16 @@ export function Header({
           <Link
             href={`/${locale}`}
             aria-label={homeLabel}
-            className="flex items-center gap-2 text-foreground"
+            className="flex items-center text-foreground"
           >
-            <RiderMark className="h-7 w-auto text-gold" />
-            <Wordmark size="sm" />
+            <Image
+              src="/images/logo.png"
+              alt="MotoTaxi"
+              width={1206}
+              height={1198}
+              className="h-10 w-auto md:h-12"
+              priority
+            />
           </Link>
 
           <nav className="hidden items-center gap-7 lg:flex">

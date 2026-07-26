@@ -28,15 +28,12 @@ export function ServiceCard({
   slug,
   name,
   shortDescription,
-  // icon,
-  // gradient,
   colSpan,
   featured = false,
   viewDetailsLabel,
   index,
   image,
 }: ServiceCardProps) {
-  console.log(image);
   return (
     <motion.div
       initial={{ opacity: 0, y: 24 }}
@@ -65,28 +62,19 @@ export function ServiceCard({
       >
         <div
           className={cn(
-            "overflow-hidden rounded-md",
+            "relative overflow-hidden rounded-md",
             featured ? "aspect-video" : "aspect-4/3",
           )}
         >
-          <Image
-            alt={name}
-            src="/images/airport-service.png"
-            width={0}
-            height={0}
-            sizes="100vh"
-            className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-          />
-          {/* ) : (
-            <ImagePlaceholder
-              gradient={gradient}
-              icon={icon}
-              layoutId={`service-image-${slug}`}
-              rounded="lg"
-              className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+          {image && (
+            <Image
+              alt={name}
+              src={image}
+              fill
+              sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+              className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
             />
-          )} */}
-          {/* TODO: replace with real photo */}
+          )}
         </div>
 
         <h3 className="mt-5 text-h3 text-foreground">{name}</h3>

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Moon } from "lucide-react";
@@ -10,9 +11,12 @@ interface ThemeToggleProps {
 
 export function ThemeToggle({ label }: ThemeToggleProps) {
   const { resolvedTheme, setTheme } = useTheme();
-  // resolvedTheme is undefined until next-themes resolves it client-side; this
-  // matches the server-rendered (undefined) state, so no hydration mismatch.
-  const isDark = resolvedTheme === "dark";
+  // next-themes reads localStorage synchronously on the client's first render,
+  // so resolvedTheme can differ from the server-rendered value right away.
+  // Gate on mount so the icon only switches after hydration completes.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const isDark = mounted && resolvedTheme === "dark";
 
   return (
     <button

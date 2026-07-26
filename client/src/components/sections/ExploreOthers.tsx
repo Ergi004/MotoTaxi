@@ -37,6 +37,7 @@ export function ExploreOthers({ locale, dict, currentSlug }: ExploreOthersProps)
                 colSpan=""
                 viewDetailsLabel={dict.servicesSection.viewDetails}
                 index={index}
+                image={meta.image}
               />
             );
           })}

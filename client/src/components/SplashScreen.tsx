@@ -2,9 +2,7 @@
 
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { RiderMark } from "@/components/icons/RiderMark";
-import { SpeedLines } from "@/components/icons/SpeedLines";
-import { Wordmark } from "@/components/Wordmark";
+import Image from "next/image";
 
 interface SplashScreenProps {
   tagline: string;
@@ -30,7 +28,11 @@ function getServerSkipSnapshot() {
 }
 
 export function SplashScreen({ tagline }: SplashScreenProps) {
-  const shouldSkip = useSyncExternalStore(subscribe, getSkipSnapshot, getServerSkipSnapshot);
+  const shouldSkip = useSyncExternalStore(
+    subscribe,
+    getSkipSnapshot,
+    getServerSkipSnapshot,
+  );
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
@@ -53,19 +55,24 @@ export function SplashScreen({ tagline }: SplashScreenProps) {
           transition={{ duration: 0.7, ease: EASE }}
           className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-6 bg-background"
         >
-          <RiderMark animate duration={0.9} className="h-16 w-auto text-foreground" />
-          <SpeedLines animate delay={0.85} className="h-6 w-24" />
           <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.15, duration: 0.5, ease: EASE }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7, ease: EASE }}
           >
-            <Wordmark size="lg" />
+            <Image
+              src="/images/logo.png"
+              alt="MotoTaxi"
+              width={1206}
+              height={1198}
+              className="h-40 w-auto md:h-48 rounded-2xl"
+              priority
+            />
           </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.4, duration: 0.5, ease: EASE }}
+            transition={{ delay: 0.9, duration: 0.5, ease: EASE }}
             className="font-display text-body-lg italic text-foreground-muted"
           >
             {tagline}
