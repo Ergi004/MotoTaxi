@@ -8,6 +8,7 @@ import { cn } from "@/lib/cn";
 interface WhatsAppButtonProps {
   message: string;
   label: string;
+  number?: string;
   variant?: "primary" | "outline";
   pulse?: boolean;
   className?: string;
@@ -16,6 +17,7 @@ interface WhatsAppButtonProps {
 export function WhatsAppButton({
   message,
   label,
+  number,
   variant = "primary",
   pulse = false,
   className,
@@ -24,7 +26,7 @@ export function WhatsAppButton({
 
   return (
     <motion.a
-      href={buildWhatsAppLink(message)}
+      href={buildWhatsAppLink(message, number)}
       target="_blank"
       rel="noopener noreferrer"
       whileTap={{ scale: 0.97 }}

@@ -5,6 +5,7 @@ import { StickyMobileCta } from "@/components/StickyMobileCta";
 import { ExploreOthers } from "@/components/sections/ExploreOthers";
 import { Reveal } from "@/components/Reveal";
 import { serviceMeta, type ServiceSlug } from "@/lib/services";
+import { SERVICE_CONTACT_NUMBERS } from "@/lib/whatsapp";
 import type { Locale } from "@/lib/i18n-config";
 import type { Dictionary } from "@/dictionaries";
 
@@ -43,10 +44,17 @@ export function ServiceDetailTemplate({
               <p className="mt-3 font-display text-body-lg italic text-gold">
                 {service.tagline}
               </p>
-              <div className="mt-8 hidden md:block">
+              <div className="mt-8 hidden gap-3 md:flex">
                 <WhatsAppButton
                   message={service.whatsappMessage}
-                  label={dict.serviceDetail.orderCta}
+                  label={dict.serviceDetail.contact1Label}
+                  number={SERVICE_CONTACT_NUMBERS.contact1}
+                />
+                <WhatsAppButton
+                  message={service.whatsappMessage}
+                  label={dict.serviceDetail.contact2Label}
+                  number={SERVICE_CONTACT_NUMBERS.contact2}
+                  variant="outline"
                 />
               </div>
             </div>
@@ -169,7 +177,10 @@ export function ServiceDetailTemplate({
 
       <StickyMobileCta
         message={service.whatsappMessage}
-        label={dict.serviceDetail.orderCta}
+        contact1Label={dict.serviceDetail.contact1Label}
+        contact1Number={SERVICE_CONTACT_NUMBERS.contact1}
+        contact2Label={dict.serviceDetail.contact2Label}
+        contact2Number={SERVICE_CONTACT_NUMBERS.contact2}
       />
     </>
   );
