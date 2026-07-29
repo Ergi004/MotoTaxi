@@ -91,7 +91,12 @@ export function MobileMenu({
             exit="closed"
             className="flex flex-col gap-5 border-t border-border px-5 py-6"
           >
-            <WhatsAppButton message={ctaMessage} label={ctaLabel} className="w-full" />
+            <WhatsAppButton
+              message={ctaMessage}
+              label={ctaLabel}
+              number="355684023172"
+              className="w-full"
+            />
             <div className="flex items-center justify-between">
               <span className="text-small text-foreground-muted">{languageLabel}</span>
               <LanguageSwitcher locale={locale} label={languageLabel} />

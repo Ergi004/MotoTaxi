@@ -98,6 +98,7 @@ export function Header({
             <WhatsAppButton
               message={ctaMessage}
               label={ctaLabel}
+              number="355684023172"
               className="px-4 py-2.5 text-[13px]"
             />
           </div>
