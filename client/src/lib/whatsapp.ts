@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "355695767445";
+export const WHATSAPP_NUMBER = "355684023172";
 
 export const SERVICE_CONTACT_NUMBERS = {
   contact1: "355684023172",
