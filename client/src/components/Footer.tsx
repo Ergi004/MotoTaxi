@@ -83,10 +83,10 @@ export function Footer({
               </li>
               <li>
                 <a
-                  href="mailto:info@mototaxi.al"
+                  href="mailto:mototaxitirana@gmail.com"
                   className="text-body text-foreground transition-colors hover:text-gold"
                 >
-                  {emailLabel}: info@mototaxi.al
+                  {emailLabel}: mototaxitirana@gmail.com
                 </a>
               </li>
             </ul>
